@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: belle-trans-platform
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    druid:
+      initialSize: 20
+      minIdle: 10
+      maxActive: 100
+      maxWait: 2000
+      testWhileIdle: true
+      url: jdbc:mysql://10.244.1.23:3306/information_trans?useSSL=false&amp;autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf-8
+      username: dev
+      password: dev111
+
+server:
+  port: 8888
+
